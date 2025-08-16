@@ -21,7 +21,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-               git credentialsId: 'Github token', url: 'https://github.com/naveenpadeti/fullstackapp.git', branch: 'main'
+git credentialsId: 'Github token', url: 'https://github.com/naveenpadeti/fullstack.git', branch: 'main'
             }
         }
 
